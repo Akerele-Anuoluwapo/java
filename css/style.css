@@ -1,0 +1,32 @@
+body ul {
+    list-style-type: disc;
+    /* list-style: square; */
+}
+#page-title{
+    text-align: center;
+}
+#container{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+img {
+    width: 100%;
+}
+.hover{
+    background: url(../assets/images/couple-ga99b86164_1920.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    color: black;
+    width: 45%;
+    height: 200px;
+    border: 2px solid black;
+
+}
+.hover:hover{
+    background: black;
+    color: aliceblue;
+    background-image: url(../assets/images/couple-ga99b86164_1920.jpg );
+    background-size: 100%;
+    opacity: 1;
+}
